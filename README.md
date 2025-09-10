@@ -72,9 +72,9 @@ Pass Rate: The percentage of simulated 30-year periods where the portfolio did n
 
 Terminal Wealth: The value of the portfolio at the end of 30 years, before the final withdrawal.
 
-    Median: The middle value of all outcomes. Half of the outcomes were higher, half were lower.
+Median: The middle value of all outcomes. Half of the outcomes were higher, half were lower.
 
-    Percentiles (5th, 25th, 75th, 95th): Show the range of possible outcomes. The 5th percentile is a particularly important worst-case scenario.
+Percentiles (5th, 25th, 75th, 95th): Show the range of possible outcomes. The 5th percentile is a particularly important worst-case scenario.
 
 A "Success" is defined as a portfolio value greater than $0 at the end of the 30-year period.
 
