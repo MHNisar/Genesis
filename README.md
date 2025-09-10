@@ -18,7 +18,7 @@ The model is contained within a single Excel workbook (.xlsm) with the following
 
 Historical:
 
-This sheet houses the foundational dataset for the simulation. It contains annual historical returns for stocks, bonds, and inflation, along with the calculated correlation between asset classes for each year. The model samples randomly from this data to generate stochastic return sequences.
+This sheet houses the foundational dataset for the simulation. It contains annual historical returns for stocks, bonds, and inflation for each year. The model samples randomly from this data to generate stochastic return sequences.
 
 Control:
 
@@ -30,7 +30,7 @@ The core computational sheet. It runs a single, randomized 30-year retirement sc
 
 Simulations:
 
-This sheet summarizes the outcomes from running thousands of simulations.
+This sheet presents the outcomes from running 3000 simulations.
 
 # Installation & Usage
 1. Download the Repository: Click the Code button and select Download ZIP. Extract the files to a folder on your computer.
@@ -53,19 +53,19 @@ This sheet summarizes the outcomes from running thousands of simulations.
 
     -> Go to the Control sheet.
 
-    -> Adjust the parameters (Starting Balance, Withdrawal Rate, Stock/Bond Allocation, etc.) to your liking.
+    -> Adjust the parameters (Starting Balance, Withdrawal Rate (r1), Stock/Bond Allocation, etc.) to your liking.
 
 6. Run the Simulation:
 
     -> Press the "Refresh Simulations" button (this button is triggered by a VBA macro).
 
-    -> The model will run thousands of iterations. Please be patient; this may take a moment.
+    -> The model will run 3000 iterations. Please be patient; this may take a moment.
 
 7. View Results:
 
     -> The Control sheet will populate with the aggregate success rate and terminal wealth statistics.
    
-    -> The r1 sheet will show the path of a single, randomly selected simulation for detailed inspection.
+    -> The r1 sheet will show the path of a single, most recent simulation for detailed inspection.
 
 # Interpreting the Results
 Pass Rate: The percentage of simulated 30-year periods where the portfolio did not deplete to zero.
